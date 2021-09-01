@@ -2350,7 +2350,7 @@ a {
 
 .contact-main .contact_info_box {
   background: rgba(17, 22, 32, 0.05);
-  margin: 40px 0;
+  margin: 0 0 65px 0;
   box-shadow: 2px 4px 5px 0px rgba(69, 59, 59, 0.75);
   -webkit-box-shadow: 2px 4px 5px 0px rgba(69, 59, 59, 0.75);
   -moz-box-shadow: 2px 4px 5px 0px rgba(69, 59, 59, 0.75);
@@ -2408,6 +2408,7 @@ a {
 }
 
 .contact-main .contant_info_groups .singleCard .info_card {
+  margin-top: 15px;
   height: 240px;
   padding: 2em 1em;
   text-align: center;
@@ -4088,7 +4089,6 @@ a {
     padding-top: 15px;
   }
   .contact-main .contant_info_groups .singleCard .info_card {
-    margin-top: 15px;
     height: 240px;
     padding: 2em 1em;
     text-align: center;
