@@ -2345,7 +2345,7 @@ a {
 
 .contact-main .contant_titles {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .contact-main .contact_info_box {
@@ -2862,6 +2862,54 @@ a {
     padding: .5em 2.5em;
   }
   /** our service **/
+  .contact-main {
+    margin: 40px 0;
+    padding: 0 0 15px 0;
+  }
+  .contact-main .contant_titles {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .contact-main .contant_titles h1 {
+    font-size: 28px;
+  }
+  .contact-main .contact_info_box {
+    margin: 20px 0 50px 0;
+    padding: 40px 20px;
+  }
+  .contact-main .contact_info_box .contant_form h2 {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .contact-main .contant_info_groups .singleCard {
+    color: #fff;
+  }
+  .contact-main .contant_info_groups .singleCard:nth-child(odd) .info_card {
+    background: #DE1C3E;
+  }
+  .contact-main .contant_info_groups .singleCard:nth-child(odd) .info_card h4 {
+    padding-top: 15px;
+  }
+  .contact-main .contant_info_groups .singleCard .info_card {
+    height: 280px;
+    padding: 2em 1em;
+    text-align: center;
+    border-radius: 10px;
+    background: #21418E;
+  }
+  .contact-main .contant_info_groups .singleCard .info_card h4 {
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+  .contact-main .contant_info_groups .singleCard .info_card p {
+    line-height: 30px;
+  }
+  .contact-main .contant_info_groups .singleCard .info_card p.email {
+    padding-top: 5px;
+  }
 }
 
 /* Landscape phones and portrait tablets */

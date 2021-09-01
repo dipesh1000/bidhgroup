@@ -2103,7 +2103,7 @@ a {
     padding: 60px 0;
     .contant_titles {
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
     .contact_info_box {
         background: rgba(17, 22, 32, 0.05);
@@ -2593,6 +2593,61 @@ a {
         }
     }
     /** our service **/
+
+    .contact-main {
+        margin: 40px 0;
+        padding: 0 0 15px 0; 
+        .contant_titles {
+            text-align: center;
+            padding-bottom: 0px;
+            h1 {
+                font-size: 28px;
+            }
+        }
+        .contact_info_box {
+            margin: 20px 0 50px 0;
+            padding: 40px 20px;
+            .contant_form {
+                h2 {
+                    margin-top: 25px;
+                    font-weight: 500;
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .contant_info_groups {
+            .singleCard {
+                color: #fff;
+                &:nth-child(odd) {
+                    .info_card {
+                        background: $secondaryColor;
+                        h4 {
+                            padding-top: 15px;
+                        }
+                    }
+                }
+                .info_card {
+                    height: 280px;
+                    padding: 2em 1em;
+                    text-align: center;
+                    border-radius: 10px;
+                    background: $primaryColor;
+                    h4 {
+                        color: #fff;
+                        padding-bottom: 15px;
+                        font-size: 18px;
+                    }
+                    p {
+                        line-height: 30px;
+                        &.email {
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Landscape phones and portrait tablets */
