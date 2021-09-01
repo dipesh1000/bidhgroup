@@ -3815,4 +3815,59 @@ a {
             }
         }
     }
+    .contact-main {
+        margin: 40px 0;
+        padding: 0 0 15px 0; 
+        .contant_titles {
+            text-align: center;
+            padding-bottom: 0px;
+            h1 {
+                font-size: 28px;
+            }
+        }
+        .contact_info_box {
+            margin: 20px 0 50px 0;
+            padding: 40px 20px;
+            .contant_form {
+                h2 {
+                    margin-top: 25px;
+                    font-weight: 500;
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .contant_info_groups {
+            .singleCard {
+                color: #fff;
+                &:nth-child(odd) {
+                    .info_card {
+                        background: $secondaryColor;
+                        h4 {
+                            padding-top: 15px;
+                        }
+                    }
+                }
+                .info_card {
+                    margin-top: 15px;
+                    height: 240px;
+                    padding: 2em 1em;
+                    text-align: center;
+                    border-radius: 10px;
+                    background: $primaryColor;
+                    h4 {
+                        color: #fff;
+                        padding-bottom: 15px;
+                        font-size: 20px;
+                    }
+                    p {
+                        line-height: 30px;
+                        &.email {
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
